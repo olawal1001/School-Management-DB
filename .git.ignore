@@ -1,0 +1,26 @@
+# Ignore build artifacts
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore database files
+*.sqlite
+*.db
+
+# Ignore sensitive information
+config.ini
+credentials.json
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db

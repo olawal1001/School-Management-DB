@@ -51,3 +51,5 @@ SELECT Enrolments.CourseID, MAX(Courses.CourseName) AS CourseName, COUNT(Enrolme
 SELECT Students.StudentID, Students.FirstName, Students.LastName FROM Students INNER JOIN Enrolments ON Students.StudentID = Enrolments.StudentID WHERE Enrolments.CourseID = 102;
 
 Updates: Simulated updates include changing a student's name and removing a course.
+
+**TOOL:** MICROSOFT SQL SERVER 
